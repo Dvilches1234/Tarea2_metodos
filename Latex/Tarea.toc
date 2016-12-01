@@ -1,0 +1,7 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{3}
+\contentsline {chapter}{\numberline {2}Resoluci\IeC {\'o}n de sistema de ecuaciones lineales}{4}
+\contentsline {section}{\numberline {2.1}Programaci\IeC {\'o}n}{4}
+\contentsline {section}{\numberline {2.2}Aplicaci\IeC {\'o}n de los esquemas programados}{4}
+\contentsline {chapter}{\numberline {3}Algo 2}{5}
+\contentsline {chapter}{\numberline {4}Conclusi\IeC {\'o}n}{6}
