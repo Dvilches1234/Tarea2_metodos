@@ -2,6 +2,7 @@
 
 function [ sol ] = SolLU(a,b)   
 [l,u]=FactorizacionLU(a);
-sol=inv(u)*inv(l)*b;
+ y=DiagDown(l,b);
+ sol=DiagUp(u,y);   
 end
 

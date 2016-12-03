@@ -8,10 +8,10 @@ function [ x ] = DiagDown(a, b)
     for i = 1 :f
         suma = 0;
         for j = i-1:-1:1
-            x(i)
-            k = a(i,j)*x(i)
-            suma = suma + a(i,j)*x(j)
+            x(i);
+            k = a(i,j)*x(i);
+            suma = suma + a(i,j)*x(j);
         end
-        x(i)=(b(i)-suma)/a(i,i)
+        x(i)=(b(i)-suma)/a(i,i);
     end
 end

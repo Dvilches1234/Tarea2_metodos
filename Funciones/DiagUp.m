@@ -8,11 +8,11 @@ function [ x ] = DiagUP(a, b)
     for i = f :-1:1
         suma = 0;
         for j = i+1:f
-            j
-            x(i)
-            k = a(i,j)*x(i)
-            suma = suma + a(i,j)*x(j)
+            j;
+            x(i);
+            k = a(i,j)*x(i);
+            suma = suma + a(i,j)*x(j);
         end
-        x(i)=(b(i)-suma)/a(i,i)
+        x(i)=(b(i)-suma)/a(i,i);
     end
 end
