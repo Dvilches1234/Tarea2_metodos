@@ -1,5 +1,6 @@
-function i=trapeciocomp(a,b,n)    %f(z)=(10^3)*(9.8)*w(z)*(60-z)
-
+function i=trapeciocomp(a,b,n)    %f(z)=(10^3)*(9.8)*w(z)*(6-z)*10
+                                  %w(0)=122
+                                  %w(1)=130
 syms z
 a=input('introducir intervalo inferior: ');
 b=input('introducir intervalo superior: ');
