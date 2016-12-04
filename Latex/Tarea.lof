@@ -7,15 +7,15 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Gr\IeC {\'a}fico de$\frac {rfe}{rbe}$}}{7}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Gr\IeC {\'a}fico n vs K(A)}}{9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces enunciado.}}{19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces interpolaci\IeC {\'o}n Spline cubica.}}{20}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces interpolaci\IeC {\'o}n Spline cubica suavizante.}}{20}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces interpolaci\IeC {\'o}n Lagrange parte inferior de auto.}}{21}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces interpolaci\IeC {\'o}n lagrange parte superior de auto.}}{21}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces enunciado.}}{22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces interpolaci\IeC {\'o}n Spline cubica.}}{23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces interpolaci\IeC {\'o}n Spline cubica suavizante.}}{23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces interpolaci\IeC {\'o}n Lagrange parte inferior de auto.}}{24}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces interpolaci\IeC {\'o}n lagrange parte superior de auto.}}{24}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Ancho del rio W, respecto a la altura z.}}{22}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces fuerza o presi\IeC {\'o}n en cada tramo calculado.}}{23}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces presi\IeC {\'o}n en cota a mayor profundidad.}}{23}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Curva lado derecho de la presa, interpolaci\IeC {\'o}n polin\IeC {\'o}mica de Lagrange.}}{24}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Curva lado izquierdo de la presa, interpolaci\IeC {\'o}n por spline cubico.}}{24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ancho del rio W, respecto a la altura z.}}{25}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces fuerza o presi\IeC {\'o}n en cada tramo calculado.}}{26}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces presi\IeC {\'o}n en cota a mayor profundidad.}}{26}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Curva lado derecho de la presa, interpolaci\IeC {\'o}n polin\IeC {\'o}mica de Lagrange.}}{27}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Curva lado izquierdo de la presa, interpolaci\IeC {\'o}n por spline cubico.}}{27}
 \addvspace {10\p@ }

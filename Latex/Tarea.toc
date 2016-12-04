@@ -3,6 +3,6 @@
 \contentsline {chapter}{\numberline {2}Resoluci\IeC {\'o}n de sistema de ecuaciones lineales}{4}
 \contentsline {section}{\numberline {2.1}Programaci\IeC {\'o}n}{4}
 \contentsline {section}{\numberline {2.2}Aplicaci\IeC {\'o}n de los esquemas programados}{4}
-\contentsline {chapter}{\numberline {3}Aproximaci\IeC {\'o}n de funciones}{19}
-\contentsline {chapter}{\numberline {4}Integraci\IeC {\'o}n de funciones}{22}
-\contentsline {chapter}{\numberline {5}Conclusi\IeC {\'o}n}{25}
+\contentsline {chapter}{\numberline {3}Aproximaci\IeC {\'o}n de funciones}{22}
+\contentsline {chapter}{\numberline {4}Integraci\IeC {\'o}n de funciones}{25}
+\contentsline {chapter}{\numberline {5}Conclusi\IeC {\'o}n}{28}
