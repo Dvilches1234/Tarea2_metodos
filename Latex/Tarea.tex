@@ -141,29 +141,28 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
 				\end{itemize}
 			\end{itemize}
 		\end{enumerate}
->>>>>>> de06aed0e42e8b4ad3d6f30714c8f70516fa86ce
+
  	
  	\item  Considere la siguiente matriz que aparece en la discretización de la ecuación diferencial del calor:
 
-    $A = $
     \[
+    $A = $
  	\left(
- 	\begin{array}{ccccccccc}
+ 	\begin{array}{cccccccccccccccccccccc}
  	
- 	  -4 && 1  && 0   && 1   && 0   && 2 && 0   && 0   && 0 \\
- 	   1 && -4 && 1   && 0   && 1   && 2 && 0   && 0   && 0 \\ 	   
- 	   0 && 1  && -4  && 1   && 0   && 2 && 0   && 0   && 0 \\ 	   
- 	   1 && 0  && 1   && -4  && 1   && 2 && 2 && 0   && 0 \\ 	   
- 	   2 && 2 &&2  && 2 && 2 && 2 && 2 && 2 && 2 \\ 	   
- 	   0 && 0  && 2 && 2 && 1   && -4  && 1   && 0   && 1 \\ 	   
- 	   0 && 0  && 0   && 2 && 0   && 1   && -4  && 1   && 0 \\ 	   
- 	   0 && 0  && 0   && 2 && 1   && 0   && 1   && -4  && 1 \\ 	   
- 	   0 && 0  && 0   && 2 && 0   && 1   && 0   && 1   && -4 \\
+ 	  -4 && 1  && 0   && 1   && 0   && \dots && 0   && 0   && 0 \\
+ 	   1 && -4 && 1   && 0   && 1   && \ddots && 0   && 0   && 0 \\ 	   
+ 	   0 && 1  && -4  && 1   && 0   && \ddots && 0   && 0   && 0 \\ 	   
+ 	   1 && 0  && 1   && -4  && 1   && \ddots && \ddots && 0   && 0 \\ 	   
+ 	   \ddots && \ddots &&\ddots  && \ddots && \ddots && \ddots && \ddots && \ddots && \ddots \\ 	   
+ 	   0 && 0  && \ddots && \ddots && 1   && -4  && 1   && 0   && 1 \\ 	   
+ 	   0 && 0  && 0   && \ddots && 0   && 1   && -4  && 1   && 0 \\ 	   
+ 	   0 && 0  && 0   && \ddots && 1   && 0   && 1   && -4  && 1 \\ 	   
+ 	   0 && 0  && 0   && \ddots && 0   && 1   && 0   && 1   && -4 \\
  	   
  	\end{array}
  	\right) 
  	\]
-
  	
  	 \begin {enumerate}
  	    \item Usando la Factorización de Cholesky, encuentre la solución del sistema $A^{T}Ax = b$, con $b \in R^{n}$  un vector de unos, cuando n = 10, 20, 30.
