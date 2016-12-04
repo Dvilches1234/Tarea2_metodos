@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.30)  3 DEC 2016 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.30)  3 DEC 2016 22:21
 entering extended mode
 **./Tarea.tex
 (Tarea.tex
@@ -1053,72 +1053,121 @@ Cap\'{\i }tulo 2.
 File: Imagenes/grafo1-a.jpg Graphic file (type jpg)
 
 <use Imagenes/grafo1-a.jpg>
-Package pdftex.def Info: Imagenes/grafo1-a.jpg used on input line 51.
+Package pdftex.def Info: Imagenes/grafo1-a.jpg used on input line 54.
 (pdftex.def)             Requested size: 256.0748pt x 191.98338pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
+
+ []
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 65.
+less on input line 70.
 
 [4
 
  <./Imagenes/grafo1-a.jpg>]
-<Imagenes/grafo1-rfe.jpg, id=27, 562.1pt x 421.575pt>
-File: Imagenes/grafo1-rfe.jpg Graphic file (type jpg)
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
-<use Imagenes/grafo1-rfe.jpg>
-Package pdftex.def Info: Imagenes/grafo1-rfe.jpg used on input line 67.
-(pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
+ []
 
-<Imagenes/grafo1-rbe.jpg, id=28, 562.1pt x 421.575pt>
-File: Imagenes/grafo1-rbe.jpg Graphic file (type jpg)
 
-<use Imagenes/grafo1-rbe.jpg>
-Package pdftex.def Info: Imagenes/grafo1-rbe.jpg used on input line 73.
-(pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
+ []
+
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.07225pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5 <./Imagenes/grafo1-rfe.jpg>]
-<Imagenes/grafo1-div.jpg, id=34, 562.1pt x 421.575pt>
+[5] <Imagenes/grafo1-rfe.jpg, id=32, 562.1pt x 421.575pt>
+File: Imagenes/grafo1-rfe.jpg Graphic file (type jpg)
+
+<use Imagenes/grafo1-rfe.jpg>
+Package pdftex.def Info: Imagenes/grafo1-rfe.jpg used on input line 82.
+(pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
+
+<Imagenes/grafo1-rbe.jpg, id=33, 562.1pt x 421.575pt>
+File: Imagenes/grafo1-rbe.jpg Graphic file (type jpg)
+
+<use Imagenes/grafo1-rbe.jpg>
+Package pdftex.def Info: Imagenes/grafo1-rbe.jpg used on input line 88.
+(pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
+ [6 <./Imagenes/grafo1-rfe.jpg>]
+<Imagenes/grafo1-div.jpg, id=38, 562.1pt x 421.575pt>
 File: Imagenes/grafo1-div.jpg Graphic file (type jpg)
 
 <use Imagenes/grafo1-div.jpg>
-Package pdftex.def Info: Imagenes/grafo1-div.jpg used on input line 79.
+Package pdftex.def Info: Imagenes/grafo1-div.jpg used on input line 94.
 (pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
-LaTeX Info: Redefining \. on input line 89.
-LaTeX Info: Redefining \% on input line 89.
- [6 <./Imagenes/grafo1-rbe.jpg> <./Imagenes/grafo1-div.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 115.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
+LaTeX Info: Redefining \. on input line 120.
+LaTeX Info: Redefining \% on input line 120.
+ [7 <./Imagenes/grafo1-rbe.jpg> <./Imagenes/grafo1-div.jpg>]
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
+ [8]
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+ [9]
+Overfull \vbox (62.30107pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+
+[10]
 Cap\'{\i }tulo 3.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 94.
+less on input line 137.
 
-[7
+[11
 
 ]
 Cap\'{\i }tulo 4.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 101.
+less on input line 144.
 
-[8
+[12
 
 ] (Tarea.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 ) ) 
 Here is how much of TeX's memory you used:
- 17561 strings out of 493335
- 319904 string characters out of 3139260
- 565064 words of memory out of 3000000
- 20746 multiletter control sequences out of 15000+200000
+ 17578 strings out of 493335
+ 320192 string characters out of 3139260
+ 569064 words of memory out of 3000000
+ 20760 multiletter control sequences out of 15000+200000
  7689 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,61p,809b,1457s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1130,9 +1179,9 @@ fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on Tarea.pdf (9 pages, 182138 bytes).
+Output written on Tarea.pdf (13 pages, 189625 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

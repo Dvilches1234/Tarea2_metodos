@@ -2,17 +2,11 @@
 %a: Matriz de coeficiente del sistema 
 %b: matriz con los resultados del sistema
 %tol: tolerancia 
-
+%m: I-Q^(-1)*A
+%c: Q^(-1)*B
 function gs = GaussSeidel( x0, a, b,tol)
    sz=size(a);
-   q=a;
-   for i=1:sz(1)
-        for j=1:sz(2)
-         if j>i
-            q(i,j)=0;
-         end    
-        end    
-   end 
+   q=tril(a)
    m=eye(sz(1))-inv(q)*a;
    c=inv(q)*b;
    xk=m*x0+c;
