@@ -7,7 +7,7 @@ h=(w(7)-w(1));
 f(z)=(10^3)*(9.8)*w(z).*(6-z).*10; 
 %f(z) de 1 a 7
 %para ocupar el f real de un numero ocupar faux(numero,f)
-%con f(0) te va tirar error, con faux(0,f) 
+%con f(x0)
 s=0;
 
 

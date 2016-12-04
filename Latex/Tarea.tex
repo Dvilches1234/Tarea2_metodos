@@ -1,6 +1,6 @@
 \documentclass{udpreport}
 %\headertext{Metodos Numéricos}
-\title{Metodos Numéricos : Tarea 1}
+\title{Metodos Numéricos : Tarea 2}
 \author{Thomas Muñoz , Diego Vilches , Javiera Araya , Ignacio Yanjari.}
 \usepackage{amssymb}
 \usepackage{amsmath}
@@ -10,6 +10,7 @@
 \graphicspath{ {Imagenes/} }
 \usepackage{listings}
 \usepackage{color}
+\providecommand{\norm}[1]{\lVert#1\rVert}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -37,6 +38,16 @@
 \tableofcontents
 \listoffigures
 \chapter{Introducción}
+El presente informe tiene como objetivo ver  y analizar el funcionamiento de los métodos vistos en catedra, los cuales se centrara en tres ejes fundamentales que son:
+\begin{enumerate}
+\item Resolución de sistemas lineales.
+\item Aproximación de funciones.
+\item Integración de funciones. 
+\end{enumerate}
+
+En la resolución de sistemas lineales la finalidad es que a lo largo del trabajo se oriente en ocupar métodos con el fin de obtener una solución para determinado sistema para ello se hará uso de diversas factorizaciones como LU o Cholesky,  asi tambien el uso de métodos muy importantes como el de Jacobi o Gauss-Seidel, entre otros, de manera que sea más simple la resolución del sistema. Por otra parte y dentro de este mismo item se verá si una matriz está bien condicionada  y en determinados casos calcular los errores que se pueden dar en  la obtención de soluciones con los métodos utilizados.
+En lo que se refiere a aproximación de funciones e integración de funciones, los métodos para interpolar serán el enfoque principal para poder aproximar determinados contornos de figuras específicas, también es importante destacar el uso de la formula el trapecio compuesto que será útil para aproximar integrales definidas.
+\newpage
 
 \chapter{Resolución de sistema de ecuaciones lineales} % rellenar con lo que corresponda
  \section{Programación}
@@ -127,18 +138,234 @@
 				\end{itemize}
 			\end{itemize}
 		\end{enumerate}
- 		
+ 	
+ 	\item 
+ 	 \begin {enumerate}
+ 	    \item Usando la Factorización de Cholesky, encuentre la solución del sistema $Ax = b$, con $b \in R^{n}$  un vector de unos, cuando n = 10, 20, 30.
+ 	        \begin{align*}
+ 	             1) \left(\begin{array}{c} 0.7347\\ 0.8712\\ 0.9332\\ 1.0677\\ 1.0839\\ 1.0830\\ 1.0269\\ 0.8574\\ 0.8229\\ 0.6498 \end{array}\right) 	 &&   2) \left(\begin{array}{c} 0.8160\\ 0.9860\\ 1.0786\\ 1.2779\\ 1.3690\\ 1.4156\\ 1.4739\\ 1.5073\\ 1.5207\\ 1.5299\\ 1.5233\\ 1.5040\\ 1.4823\\ 1.4311\\ 1.3565\\ 1.3074\\ 1.1858\\ 0.9651\\ 0.9069\\ 0.7025 \end{array}\right)   &&  3) \left(\begin{array}{c} 0.8227\\ 0.9954\\ 1.0912\\ 1.2954\\ 1.3919\\ 1.4450\\ 1.5117\\ 1.5567\\ 1.5841\\ 1.6098\\ 1.6289\\ 1.6408\\ 1.6496\\ 1.6550\\ 1.6563\\ 1.6548\\ 1.6503\\ 1.6411\\ 1.6285\\ 1.6125\\ 1.5863\\ 1.5536\\ 1.5207\\ 1.4604\\ 1.3791\\ 1.3247\\ 1.1986\\ 0.9740\\ 0.9136\\ 0.7067 \end{array}\right) 
+ 	        \end{align*}
+	        
+ 	        \item Para n = 10 hasta n = 60, cálcule el número condición de la matriz A (use la norma $\norm{.}_{\infty}$). Represente en una gráfica el resultado obtenido (n vs. cond(A)). Que puede decir de la matriz A.\\
+ 	        
+ 	        La gráfica obtenida fue la siguiente :
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=9cm]{Grafico2b}
+                \caption{Gráfico n vs K(A)} \label{fig:Grafico2b}
+            \end{figure}
+            
+            Gracias a el resultado obtenido se puede apreciar claramente un aumento casi cuadratico del mal comportamiento de la matriz a mientras incrementa su orden matricial.Esto quiere decir que a medida que aumenta el tamaño de la matriz el determinante tiende a cero rapidamente.
+            
+ 	        
+ 	 \end{enumerate}
  \end{enumerate}
-\newpage
-\chapter{Algo 2}
-    
 
-     
+
+\newpage
+\chapter{Aproximación de funciones} 
+\begin{enumerate}
+    
+\vspace{0.9cm}
+\item 
+
+Se desea dibujar el contorno del auto de la siguiente foto:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{enun1}
+    \caption{enunciado.} \label{fig:enun1}
+\end{figure}
+
+
+Basado en esta figura se han obtenido los siguientes puntos:
+
+
+
+\begin{table}[H]
+    \centering
+        \begin{tabular} { |c|c|}
+        
+        \hline
+        xi  &  yi\\
+        \hline
+        2 &  5       \\
+         \hline
+        2.7 &  7.8        \\
+         \hline
+        3.8 &  9        \\
+         \hline
+        7 &  10        \\
+         \hline
+        8 &  10.2        \\
+         \hline
+        10 & 10.3        \\
+         \hline
+        13 & 10.4          \\
+         \hline
+        16 &  14.5        \\
+         \hline
+        18 &  15       \\
+         \hline
+        21 &  15.4        \\
+         \hline
+        25 &  15.5       \\
+         \hline
+        30 &  14       \\
+        \hline
+        36& 5   \\
+        \hline
+        \end{tabular}
+        \caption{Puntos superiores.}
+    \end{table}
+ \vspace{1.8cm}
+ 
+ \begin{table}[H]
+    \centering
+        \begin{tabular} { |c|c|}
+        
+        \hline
+        xi  &  yi\\
+        \hline
+        2 &  5       \\
+         \hline
+        3 &  4        \\
+         \hline
+        7 &  7.9        \\
+         \hline
+        12 &  3.8        \\
+         \hline
+        22 &  4        \\
+         \hline
+        29 & 4.6        \\
+        \hline
+        \end{tabular}
+        \caption{Puntos inferiores.}
+    \end{table}
+ \begin{itemize}
+\item Utilizando la interpolación por Spline cubico, obtenga las dos curvas que aproximan el contorno del auto.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{interp_spline}
+    \caption{interpolación Spline cubica.} \label{fig:interp_spline}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{interp_spline_csaps}
+    \caption{interpolación Spline cubica suavizante.} \label{fig:interp_spline_csaps}
+\end{figure}
+
+\item Como podría utilizar el polinomio de interpolación de Lagrange para aproximar la parte inferior del contorno del auto? Trace el grafico que obtiene en esta aproximación.
+
+Primero, para plantear el uso del polinomio de interpolación de Lagrange se hará uso de la definición de este polinomio interporlante la cual se planteará a continuación.
+
+ \begin{equation}
+ p(x)=\sum_{i=0}^n yi*Li(x)
+\end{equation}
+\\ De lo anterior, se define inmediatamente el valor de Li de la siguiente manera:
+ \begin{equation}
+ Lk(x)=\prod_{j=0,j\not=k}^{n}
+\end{equation}
+Luego, despues de definir como se utilizará el polinimio interpolante de Lagrange, se aplica el algoritmo en MATLAB con el fin de obtener graficamente lo que se plantea. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{int_lagrange_inf}
+    \caption{interpolación Lagrange parte inferior de auto.} \label{fig:int_lagrange_inf}
+\end{figure}
+Usando la misma interpolación polinómica de Lagrange y bajo el mismo algoritmo se grafica igualmente la parte superior del auto en cuestión.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{int_lagrange_aprox_parte_sup}
+    \caption{interpolación lagrange parte superior de auto.} \label{fig:int_lagrange_aprox_parte_sup}
+\end{figure}
+
+\newpage
+
+
+  
+ \chapter{Integración de funciones} 
+
+ 
+\begin{enumerate}
+\item Corriente arriba de una presa, el agua ejerce una presión  P  y ejercida a una elevación z metros por encima del fondo fluvial. Si se omite la presión atmosférica, la fuerza puede ser determinada al multiplicar la presión por el  área de la cara de la presa. Esta área se obtiene integrando la función w (z) que proporciona el ancho del rio a una altura z del lecho y toma valores según la figura:
+\end{enumerate}
+
+ 
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{enunciado2}
+    \caption{Ancho del rio W, respecto a la altura z.} \label{fig:enunciado2}
+\end{figure}
+Debido a que la presión y el área varan con la elevación, la fuerza total se obtiene al calcular
+ \begin{equation}
+ f=\int_{z=0}^{z=D} w(z)*(D-z) \cdot dz
+\end{equation}
+Donde (4) y (5) son la densidad del agua y la aceleración de gravedad, respectivamente. Por ultimo, D=60 que indica la elevación en metros.
+\begin{equation}
+ \rho=10^3[kg/m^3] 
+\end{equation}
+ 
+\begin{equation}
+g=9.8[m/s^2]
+\end{equation}
+\\
+ \begin{enumerate}
+ \item Use la fórmula del trapecio compuesta (para 6 subintervalos) para calcular la fuerza total ejercida por el agua en la cara de la presa.
+ \\ 
+ \\
+ Usando la fórmula del trapecio compuesto se obtiene que la fuerza total ejercida por el agua en la cara de la presa es la siguiente:
+ \\
+ \\
+ f=1.0854e+10
+ \\
+ \\
+ \\
+ El grafico obtenido en el proceso de obtención de la fuerza obtenida resultó ser la siguiente imagen.
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{fuerza_trap}
+    \caption{fuerza o presión en cada tramo calculado.} \label{fig:fuerza_trap}
+\end{figure}
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{presionfin}
+    \caption{presión en cota a mayor profundidad.} \label{fig:presionfin}
+\end{figure}
+Este gráfico e imagen indican que al estar en la cota que esta a mayor profundidad tal como lo muestra la figura 8 (espaciado 122 metros entre las caras de la presa) se ejerce una mayor fuerza perpendicular, esto quiere decir que el analisis realizado esta cercano a lo real ya que cumple con los principios fundamentales de la hidrostática. 
+ \vspace{2.5cm}
+ 
+ \item Usando interpolación de Lagrange, dibuje la curva del lado derecho de la  figura.
+ 
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{curva_derecha_lagrange}
+    \caption{Curva lado derecho de la presa, interpolación polinómica de Lagrange.} \label{fig:curva_derecha_lagrange}
+  
+\end{figure}
+ \item Usando interpolación por spline, dibuje la curva del lado izquierdo de la  figura.
+ \\
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{curvaizq_spline}
+    \caption{Curva lado izquierdo de la presa, interpolación por spline cubico.} \label{fig:curvaizq_spline}
+\end{figure}
+ \end{enumerate}
+ \end{enumerate}
  \newpage
 
     
     
 \chapter{Conclusión}
-      
+Del trabajo realizado durante este informe se concluye que principalmente se cumplen con los objetivos fundamentales planteados en la introducción,  primero, para la resolución de sistemas lineales, el uso de factorizaciones como por ejemplo la de Cholesky fue fundamental para encontrar la solución de un sistema matricial AX=B, de este mismo sistema se puede obtener el numero condición de la matriz A de dicho sistema, eso con el fin de ver si está bien condicionada o no.
+\\
+Otro punto a destacar fue el uso de métodos iterativos como Richardson, Jacobi, Gauss-Seidel y relajación para obtener la distribución inicial de mensajes en servidores con determinada distribución de probabilidad de Poisson.
+\\
+Con respecto a la aproximación de funciones, de forma general se puede afirmar que el uso de la interpolación Spline es más cercana a aproximar el contorno del auto lo más cercano a la imagen original en comparación a la interpolación polinómica de Lagrange, esto se pudo deber posiblemente a algún error en la programación del algoritmo planteado, eso sí , es importante decir que la aproximación de Lagrange fue menos exacta en la parte inferior del auto que en la parte exterior, es decir, al aproximar la parte exterior del auto fue muy similar tanto Lagrange como Spline cubico. 
+\\
+Finalmente, en la parte donde se muestra una presa, lo central de este problema fue obtener la presión sobre las paredes de dicha presa ejercidas por la corriente de agua. Al aplicar la fórmula del trapecio compuesto, se van adhiriendo por intervalos en determinadas alturas las fuerzas que se ejercen sobre las paredes de esta presa, la finalidad de esta sección es demostrar los principios de la hidrostática que plantean a grandes rasgos que a mayor profundidad, la fuerza que se ejerce en las paredes contenedoras es mucho mayor y perpendicular a estas.
+
 
 \end{document}
