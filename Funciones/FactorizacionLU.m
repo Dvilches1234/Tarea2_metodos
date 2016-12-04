@@ -15,6 +15,6 @@ function [ l, u ] = FactorizacionLU(a)
             end 
         end 
     end
-    u=a
+    u=a;
 end
 

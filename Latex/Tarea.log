@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.30)  2 DEC 2016 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.30)  3 DEC 2016 20:57
 entering extended mode
 **./Tarea.tex
 (Tarea.tex
@@ -1049,94 +1049,90 @@ less on input line 41.
 
 ]
 Cap\'{\i }tulo 2.
-<Imagenes/grafo1-a.jpg, id=20, 878.28125pt x 658.46pt>
+<Imagenes/grafo1-a.jpg, id=22, 878.28125pt x 658.46pt>
 File: Imagenes/grafo1-a.jpg Graphic file (type jpg)
 
 <use Imagenes/grafo1-a.jpg>
 Package pdftex.def Info: Imagenes/grafo1-a.jpg used on input line 51.
 (pdftex.def)             Requested size: 256.0748pt x 191.98338pt.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.56  			\begin{matrix}
-                       {c}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58  			\end{matrix}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (315.85962pt too wide) in paragraph at lines 56--59
-[] $[] $ 
- []
-
-
-! LaTeX Error: File `grafo1-rfe' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61  				\includegraphics[width=9cm]{grafo1-rfe}
-                                                 
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 70.
+less on input line 65.
 
 [4
 
  <./Imagenes/grafo1-a.jpg>]
+<Imagenes/grafo1-rfe.jpg, id=27, 562.1pt x 421.575pt>
+File: Imagenes/grafo1-rfe.jpg Graphic file (type jpg)
+
+<use Imagenes/grafo1-rfe.jpg>
+Package pdftex.def Info: Imagenes/grafo1-rfe.jpg used on input line 67.
+(pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
+
+<Imagenes/grafo1-rbe.jpg, id=28, 562.1pt x 421.575pt>
+File: Imagenes/grafo1-rbe.jpg Graphic file (type jpg)
+
+<use Imagenes/grafo1-rbe.jpg>
+Package pdftex.def Info: Imagenes/grafo1-rbe.jpg used on input line 73.
+(pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.07225pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./Imagenes/grafo1-rfe.jpg>]
+<Imagenes/grafo1-div.jpg, id=34, 562.1pt x 421.575pt>
+File: Imagenes/grafo1-div.jpg Graphic file (type jpg)
+
+<use Imagenes/grafo1-div.jpg>
+Package pdftex.def Info: Imagenes/grafo1-div.jpg used on input line 79.
+(pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+ [6 <./Imagenes/grafo1-rbe.jpg> <./Imagenes/grafo1-div.jpg>]
 Cap\'{\i }tulo 3.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 75.
+less on input line 94.
 
-[5
+[7
 
 ]
 Cap\'{\i }tulo 4.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 82.
+less on input line 101.
 
-[6
+[8
 
 ] (Tarea.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
 ) ) 
 Here is how much of TeX's memory you used:
- 17557 strings out of 493335
- 319581 string characters out of 3139260
- 564064 words of memory out of 3000000
- 20733 multiletter control sequences out of 15000+200000
+ 17561 strings out of 493335
+ 319904 string characters out of 3139260
+ 565064 words of memory out of 3000000
+ 20746 multiletter control sequences out of 15000+200000
  7689 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,11n,61p,809b,1457s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,12n,61p,809b,1457s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmti10.pfb>
-Output written on Tarea.pdf (7 pages, 120328 bytes).
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmti10.pfb>
+Output written on Tarea.pdf (9 pages, 182138 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
