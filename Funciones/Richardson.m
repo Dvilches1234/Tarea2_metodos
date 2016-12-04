@@ -20,4 +20,5 @@ function ric =Richardson( x0, a, b,tol)
     end   
    end
    ric=xk;
+   cont
 end

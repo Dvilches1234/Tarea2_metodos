@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.30)  3 DEC 2016 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.30)  4 DEC 2016 16:28
 entering extended mode
 **./Tarea.tex
 (Tarea.tex
@@ -879,18 +879,18 @@ LaTeX Info: Redefining \% on input line 3.
 )
 \openout1 = `Tarea.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -982,24 +982,24 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
 \c@lstlisting=\count147
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
 
  []
 
@@ -1008,7 +1008,7 @@ Missing character: There is no ­ in font cmbx10!
 Missing character: There is no Ã in font cmbx10!
 Missing character: There is no ¡ in font cmbx10!
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 36.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 37.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (Tarea.toc
@@ -1021,7 +1021,7 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 38.
+less on input line 39.
 
 [1
 
@@ -1035,7 +1035,7 @@ LaTeX Info: Redefining \% on input line 1.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 39.
+less on input line 40.
 
 [2
 
@@ -1043,7 +1043,7 @@ less on input line 39.
 Cap\'{\i }tulo 1.
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 41.
+less on input line 50.
 
 [3
 
@@ -1053,46 +1053,46 @@ Cap\'{\i }tulo 2.
 File: Imagenes/grafo1-a.jpg Graphic file (type jpg)
 
 <use Imagenes/grafo1-a.jpg>
-Package pdftex.def Info: Imagenes/grafo1-a.jpg used on input line 54.
+Package pdftex.def Info: Imagenes/grafo1-a.jpg used on input line 65.
 (pdftex.def)             Requested size: 256.0748pt x 191.98338pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 70.
+less on input line 81.
 
 [4
 
  <./Imagenes/grafo1-a.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \. on input line 91.
+LaTeX Info: Redefining \% on input line 91.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.07225pt.
@@ -1103,85 +1103,241 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: Imagenes/grafo1-rfe.jpg Graphic file (type jpg)
 
 <use Imagenes/grafo1-rfe.jpg>
-Package pdftex.def Info: Imagenes/grafo1-rfe.jpg used on input line 82.
+Package pdftex.def Info: Imagenes/grafo1-rfe.jpg used on input line 93.
 (pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
 
 <Imagenes/grafo1-rbe.jpg, id=33, 562.1pt x 421.575pt>
 File: Imagenes/grafo1-rbe.jpg Graphic file (type jpg)
 
 <use Imagenes/grafo1-rbe.jpg>
-Package pdftex.def Info: Imagenes/grafo1-rbe.jpg used on input line 88.
+Package pdftex.def Info: Imagenes/grafo1-rbe.jpg used on input line 99.
 (pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
+LaTeX Info: Redefining \. on input line 102.
+LaTeX Info: Redefining \% on input line 102.
  [6 <./Imagenes/grafo1-rfe.jpg>]
 <Imagenes/grafo1-div.jpg, id=38, 562.1pt x 421.575pt>
 File: Imagenes/grafo1-div.jpg Graphic file (type jpg)
 
 <use Imagenes/grafo1-div.jpg>
-Package pdftex.def Info: Imagenes/grafo1-div.jpg used on input line 94.
+Package pdftex.def Info: Imagenes/grafo1-div.jpg used on input line 105.
 (pdftex.def)             Requested size: 256.0748pt x 192.05493pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 115.
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
+ [7 <./Imagenes/grafo1-rbe.jpg> <./Imagenes/grafo1-div.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
+ []
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+<Imagenes/Grafico2b.png, id=42, 373.395pt x 291.33844pt>
+File: Imagenes/Grafico2b.png Graphic file (type png)
+
+<use Imagenes/Grafico2b.png>
+Package pdftex.def Info: Imagenes/Grafico2b.png used on input line 128.
+(pdftex.def)             Requested size: 256.0748pt x 199.81012pt.
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
+ [8]
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+ [9 <./Imagenes/Grafico2b.png>]
+Overfull \vbox (62.30107pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+
+[10]
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+ [11]
+Overfull \vbox (62.30107pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+
+[12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 165.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
-LaTeX Info: Redefining \. on input line 120.
-LaTeX Info: Redefining \% on input line 120.
- [7 <./Imagenes/grafo1-rbe.jpg> <./Imagenes/grafo1-div.jpg>]
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
- [8]
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
- [9]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 165.
+LaTeX Info: Redefining \. on input line 174.
+LaTeX Info: Redefining \% on input line 174.
+ [13]
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
+ [14]
 Overfull \vbox (62.30107pt too high) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
 
-[10]
+[15]
+LaTeX Info: Redefining \. on input line 180.
+LaTeX Info: Redefining \% on input line 180.
+ [16]
+Overfull \vbox (62.30107pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 180.
+LaTeX Info: Redefining \% on input line 180.
+
+[17]
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+ [18]
 Cap\'{\i }tulo 3.
+<Imagenes/enun1.png, id=79, 441.90094pt x 252.945pt>
+File: Imagenes/enun1.png Graphic file (type png)
+ <use Imagenes/enun1.png>
+Package pdftex.def Info: Imagenes/enun1.png used on input line 200.
+(pdftex.def)             Requested size: 284.52756pt x 162.8723pt.
+
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 137.
+less on input line 270.
 
-[11
+[19
 
-]
+ <./Imagenes/enun1.png>]
+<Imagenes/interp_spline.png, id=83, 415.5525pt x 313.17pt>
+File: Imagenes/interp_spline.png Graphic file (type png)
+
+<use Imagenes/interp_spline.png>
+Package pdftex.def Info: Imagenes/interp_spline.png used on input line 275.
+(pdftex.def)             Requested size: 256.0748pt x 192.99263pt.
+
+<Imagenes/interp_spline_csaps.png, id=84, 411.78844pt x 310.15875pt>
+File: Imagenes/interp_spline_csaps.png Graphic file (type png)
+
+<use Imagenes/interp_spline_csaps.png>
+Package pdftex.def Info: Imagenes/interp_spline_csaps.png used on input line 28
+1.
+(pdftex.def)             Requested size: 256.0748pt x 192.87381pt.
+ [20 <./Imagenes/interp_spline.png> <./Imagenes/interp_spline_csaps.png>]
+<Imagenes/int_lagrange_inf.png, id=88, 423.83344pt x 308.65312pt>
+File: Imagenes/int_lagrange_inf.png Graphic file (type png)
+
+<use Imagenes/int_lagrange_inf.png>
+Package pdftex.def Info: Imagenes/int_lagrange_inf.png used on input line 299.
+(pdftex.def)             Requested size: 256.0748pt x 186.48845pt.
+
+<Imagenes/int_lagrange_aprox_parte_sup.png, id=89, 428.35031pt x 318.43968pt>
+File: Imagenes/int_lagrange_aprox_parte_sup.png Graphic file (type png)
+
+<use Imagenes/int_lagrange_aprox_parte_sup.png>
+Package pdftex.def Info: Imagenes/int_lagrange_aprox_parte_sup.png used on inpu
+t line 305.
+(pdftex.def)             Requested size: 256.0748pt x 190.37044pt.
+ [21 <./Imagenes/int_lagrange_inf.png> <./Imagenes/int_lagrange_aprox_parte_sup
+.png>]
 Cap\'{\i }tulo 4.
+<Imagenes/enunciado2.png, id=94, 513.41812pt x 251.43938pt>
+File: Imagenes/enunciado2.png Graphic file (type png)
+
+<use Imagenes/enunciado2.png>
+Package pdftex.def Info: Imagenes/enunciado2.png used on input line 323.
+(pdftex.def)             Requested size: 256.0748pt x 125.4086pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
+
+ []
+
+<Imagenes/fuerza_trap.png, id=95, 437.38406pt x 319.94531pt>
+File: Imagenes/fuerza_trap.png Graphic file (type png)
+
+<use Imagenes/fuerza_trap.png>
+Package pdftex.def Info: Imagenes/fuerza_trap.png used on input line 353.
+(pdftex.def)             Requested size: 256.0748pt x 187.32103pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--355
+
+ []
+
+<Imagenes/presionfin.jpg, id=96, 684.5575pt x 335.2525pt>
+File: Imagenes/presionfin.jpg Graphic file (type jpg)
+
+<use Imagenes/presionfin.jpg>
+Package pdftex.def Info: Imagenes/presionfin.jpg used on input line 358.
+(pdftex.def)             Requested size: 256.0748pt x 125.41245pt.
+
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 144.
+less on input line 360.
 
-[12
+[22
+
+ <./Imagenes/enunciado2.png>]
+<Imagenes/curva_derecha_lagrange.png, id=100, 616.55344pt x 346.29375pt>
+File: Imagenes/curva_derecha_lagrange.png Graphic file (type png)
+
+<use Imagenes/curva_derecha_lagrange.png>
+Package pdftex.def Info: Imagenes/curva_derecha_lagrange.png used on input line
+ 368.
+(pdftex.def)             Requested size: 256.0748pt x 143.83075pt.
+ [23 <./Imagenes/fuerza_trap.png> <./Imagenes/presionfin.jpg>]
+<Imagenes/curvaizq_spline.png, id=104, 616.55344pt x 346.29375pt>
+File: Imagenes/curvaizq_spline.png Graphic file (type png)
+
+<use Imagenes/curvaizq_spline.png>
+Package pdftex.def Info: Imagenes/curvaizq_spline.png used on input line 376.
+(pdftex.def)             Requested size: 256.0748pt x 143.83075pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--378
+
+ []
+
+[24 <./Imagenes/curva_derecha_lagrange.png> <./Imagenes/curvaizq_spline.png>]
+Cap\'{\i }tulo 5.
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 395.
+
+[25
 
 ] (Tarea.aux
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
-) ) 
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17578 strings out of 493335
- 320192 string characters out of 3139260
- 569064 words of memory out of 3000000
- 20760 multiletter control sequences out of 15000+200000
+ 17649 strings out of 493335
+ 322087 string characters out of 3139260
+ 580190 words of memory out of 3000000
+ 20820 multiletter control sequences out of 15000+200000
  7689 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,61p,809b,1457s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti10.pfb>
-Output written on Tarea.pdf (13 pages, 189625 bytes).
+ 69i,14n,61p,809b,1457s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Tarea.pdf (26 pages, 1775649 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 144 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
