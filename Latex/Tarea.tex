@@ -130,10 +130,196 @@
  		
  \end{enumerate}
 \newpage
-\chapter{Algo 2}
+\chapter{Aproximación de funciones} 
+\begin{enumerate}
     
+\vspace{0.9cm}
+\item 
 
-     
+Se desea dibujar el contorno del auto de la siguiente foto:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{enun1}
+    \caption{enunciado.} \label{fig:enun1}
+\end{figure}
+
+
+Basado en esta figura se han obtenido los siguientes puntos:
+
+
+
+\begin{table}[H]
+    \centering
+        \begin{tabular} { |c|c|}
+        
+        \hline
+        xi  &  yi\\
+        \hline
+        2 &  5       \\
+         \hline
+        2.7 &  7.8        \\
+         \hline
+        3.8 &  9        \\
+         \hline
+        7 &  10        \\
+         \hline
+        8 &  10.2        \\
+         \hline
+        10 & 10.3        \\
+         \hline
+        13 & 10.4          \\
+         \hline
+        16 &  14.5        \\
+         \hline
+        18 &  15       \\
+         \hline
+        21 &  15.4        \\
+         \hline
+        25 &  15.5       \\
+         \hline
+        30 &  14       \\
+        \hline
+        36& 5
+        
+        \end{tabular}
+        \caption{Puntos superiores.}
+    \end{table}
+ \vspace{1.8cm}
+ 
+ \begin{table}[H]
+    \centering
+        \begin{tabular} { |c|c|}
+        
+        \hline
+        xi  &  yi\\
+        \hline
+        2 &  5       \\
+         \hline
+        3 &  4        \\
+         \hline
+        7 &  7.9        \\
+         \hline
+        12 &  3.8        \\
+         \hline
+        22 &  4        \\
+         \hline
+        29 & 4.6        \\
+        \end{tabular}
+        \caption{Puntos inferiores.}
+    \end{table}
+ \begin{itemize}
+\item Utilizando la interpolación por Spline cubico, obtenga las dos curvas que aproximan el contorno del auto.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{interp_spline}
+    \caption{interpolación Spline cubica.} \label{fig:interp_spline}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{interp_spline_csaps}
+    \caption{interpolación Spline cubica suavizante.} \label{fig:interp_spline_csaps}
+\end{figure}
+
+\item Como podría utilizar el polinomio de interpolación de Lagrange para aproximar la parte inferior del contorno del auto? Trace el grafico que obtiene en esta aproximación.
+
+Primero, para plantear el uso del polinomio de interpolación de Lagrange se hará uso de la definición de este polinomio interporlante la cual se planteará a continuación.
+
+ \begin{equation}
+ p(x)=\sum_{i=0}^n yi*Li(x)
+\end{equation}
+\\ De lo anterior, se define inmediatamente el valor de Li de la siguiente manera:
+ \begin{equation}
+ Lk(x)=\prod_{j=0,j\not=k}^{n}
+\end{equation}
+Luego, despues de definir como se utilizará el polinimio interpolante de Lagrange, se aplica el algoritmo en MATLAB con el fin de obtener graficamente lo que se plantea. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{int_lagrange_inf}
+    \caption{interpolación Lagrange parte inferior de auto.} \label{fig:int_lagrange_inf}
+\end{figure}
+Usando la misma interpolación polinómica de Lagrange y bajo el mismo algoritmo se grafica igualmente la parte superior del auto en cuestión.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{int_lagrange_aprox_parte_sup}
+    \caption{interpolación lagrange parte superior de auto.} \label{fig:int_lagrange_aprox_parte_sup}
+\end{figure}
+
+\newpage
+
+
+  
+ \chapter{Integración de funciones} 
+
+ 
+\begin{enumerate}
+\item Corriente arriba de una presa, el agua ejerce una presión  P  y ejercida a una elevación z metros por encima del fondo fluvial. Si se omite la presión atmosférica, la fuerza puede ser determinada al multiplicar la presión por el  área de la cara de la presa. Esta área se obtiene integrando la función w (z) que proporciona el ancho del rio a una altura z del lecho y toma valores según la figura:
+\end{enumerate}
+
+ 
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{enunciado2}
+    \caption{Ancho del rio W, respecto a la altura z.} \label{fig:enunciado2}
+\end{figure}
+Debido a que la presión y el área varan con la elevación, la fuerza total se obtiene al calcular
+ \begin{equation}
+ f=\int_{z=0}^{z=D} w(z)*(D-z) \cdot dz
+\end{equation}
+Donde (4) y (5) son la densidad del agua y la aceleración de gravedad, respectivamente. Por ultimo, D=60 que indica la elevación en metros.
+\begin{equation}
+ \rho=10^3[kg/m^3] 
+\end{equation}
+ 
+\begin{equation}
+g=9.8[m/s^2]
+\end{equation}
+\\
+ \begin{enumerate}
+ \item Use la fórmula del trapecio compuesta (para 6 subintervalos) para calcular la fuerza total ejercida por el agua en la cara de la presa.
+ \\ 
+ \\
+ Usando la fórmula del trapecio compuesto se obtiene que la fuerza total ejercida por el agua en la cara de la presa es la siguiente:
+ \\
+ \\
+ f=1.0854e+10
+ \\
+ \\
+ \\
+ El grafico obtenido en el proceso de obtención de la fuerza obtenida resultó ser la siguiente imagen.
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{fuerza_trap}
+    \caption{fuerza o presión en cada tramo calculado.} \label{fig:fuerza_trap}
+\end{figure}
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{presionfin}
+    \caption{presión en cota a mayor profundidad.} \label{fig:presionfin}
+\end{figure}
+Este gráfico e imagen indican que al estar en la cota que esta a mayor profundidad tal como lo muestra la figura 8 (espaciado 122 metros entre las caras de la presa) se ejerce una mayor fuerza perpendicular, esto quiere decir que el analisis realizado esta cercano a lo real ya que cumple con los principios fundamentales de la hidrostática. 
+ \vspace{2.5cm}
+ 
+ \item Usando interpolación de Lagrange, dibuje la curva del lado derecho de la  figura.
+ 
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{curva_derecha_lagrange}
+    \caption{Curva lado derecho de la presa, interpolación polinómica de Lagrange.} \label{fig:curva_derecha_lagrange}
+  
+\end{figure}
+ \item Usando interpolación por spline, dibuje la curva del lado izquierdo de la  figura.
+ \\
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=9cm]{curvaizq_spline}
+    \caption{Curva lado izquierdo de la presa, interpolación por spline cubico.} \label{fig:curvaizq_spline}
+\end{figure}
+ \end{enumerate}
+ \end{enumerate}
  \newpage
 
     
