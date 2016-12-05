@@ -424,7 +424,12 @@ Basado en esta figura se han obtenido los siguientes puntos:
     \includegraphics[width=9cm]{interp_spline_csaps}
     \caption{interpolación Spline cubica suavizante.} \label{fig:interp_spline_csaps}
 \end{figure}
-
+La función utilizada es:
+ 
+\begin{itemize}
+\item interp
+\end{itemize}
+obs: en esta función se puede cambiar el comando ya sea por spline,csaps u otras, así se ve su comportamiento en cada caso.
 \item Como podría utilizar el polinomio de interpolación de Lagrange para aproximar la parte inferior del contorno del auto? Trace el grafico que obtiene en esta aproximación.
 
 Primero, para plantear el uso del polinomio de interpolación de Lagrange se hará uso de la definición de este polinomio interporlante la cual se planteará a continuación.
@@ -448,6 +453,12 @@ Usando la misma interpolación polinómica de Lagrange y bajo el mismo algoritmo
     \includegraphics[width=9cm]{int_lagrange_aprox_parte_sup}
     \caption{interpolación lagrange parte superior de auto.} \label{fig:int_lagrange_aprox_parte_sup}
 \end{figure}
+La función utilizada es:
+ 
+\begin{itemize}
+\item lagrang(función que realiza el polinimio int)
+\item lagrange(script que pide los datos)
+\end{itemize}
 
 \newpage
 
@@ -502,6 +513,12 @@ g=9.8[m/s^2]
     \caption{presión en cota a mayor profundidad.} \label{fig:presionfin}
 \end{figure}
 Este gráfico e imagen indican que al estar en la cota que esta a mayor profundidad tal como lo muestra la figura 8 (espaciado 122 metros entre las caras de la presa) se ejerce una mayor fuerza perpendicular, esto quiere decir que el analisis realizado esta cercano a lo real ya que cumple con los principios fundamentales de la hidrostática. 
+La función utilizada es:
+ 
+\begin{itemize}
+\item trapecio
+\end{itemize}
+
  \vspace{2.5cm}
  
  \item Usando interpolación de Lagrange, dibuje la curva del lado derecho de la  figura.
@@ -512,6 +529,10 @@ Este gráfico e imagen indican que al estar en la cota que esta a mayor profundi
     \caption{Curva lado derecho de la presa, interpolación polinómica de Lagrange.} \label{fig:curva_derecha_lagrange}
   
 \end{figure}
+\begin{itemize}
+\item lagrang
+\item lagrange
+\end{itemize}
  \item Usando interpolación por spline, dibuje la curva del lado izquierdo de la  figura.
  \\
  \begin{figure}[H]
@@ -519,8 +540,12 @@ Este gráfico e imagen indican que al estar en la cota que esta a mayor profundi
     \includegraphics[width=9cm]{curvaizq_spline}
     \caption{Curva lado izquierdo de la presa, interpolación por spline cubico.} \label{fig:curvaizq_spline}
 \end{figure}
+\begin{itemize}
+\item nuevospline
+\end{itemize}
  \end{enumerate}
  \end{enumerate}
+
  \newpage
 
     

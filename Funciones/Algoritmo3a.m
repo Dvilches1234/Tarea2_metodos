@@ -7,7 +7,7 @@
 % x : Solucion de la ecuación
 
 function [ Xnew ] = Algoritmo3a(x0,n,e,lambda) 
-    a = Matrix2(zeros(20))
+    a = Matrix2(zeros(20));
     for i=1 : 20 
         if mod(i,2)==0
             b(i,1)=2;
@@ -15,7 +15,6 @@ function [ Xnew ] = Algoritmo3a(x0,n,e,lambda)
             b(i,1)=1;
         end
     end
-    b
     for k=1 : n
        [p,l,u]=FactorizacionPLU(a'*a);
         y = DiagDown((l*p) , p*((-a')*((a*x0)-b)-lambda*(sgn(x0))));

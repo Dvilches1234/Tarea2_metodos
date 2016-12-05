@@ -1,6 +1,12 @@
-
+% Parametros de entrada : 
+% x0 : vector inicial
+% n : Iteraciones máximas
+% e : Error 
+% lambda : Valor de lambda en la ecuación
+%Parametros de salida : 
+% x : Solucion de la ecuación
 function [ Xnew ] = Algoritmo3b(x0,n,e,lambda) 
-    a = Matrix2(zeros(20))
+    a = Matrix2(zeros(20));
     for i=1 : 20 
         if mod(i,2)==0
             b(i,1)=2;
@@ -8,20 +14,15 @@ function [ Xnew ] = Algoritmo3b(x0,n,e,lambda)
             b(i,1)=1;
         end
     end
-    b
     for k=1 : n
-        [l,u] = FactorizacionLU(a'*a)
-        suma = 0
-        for i=1:size(x0)
-           suma = suma +  abs(x0(i))
-        end
-         y = DiagDown(l,(-a')*((a*x0)-b) - lambda * (sgn(suma)))
-         %Falla por que nose que subindice es el que se coloca en sgn
-         Xnew = DiagUp(u,y) 
-        if Norma1(Xnew-x0)<e
+        [l,u] = FactorizacionLU(a'*a);
+         y = DiagDown(l,(-a')*((a*x0)-b) - lambda * (sgn(x0)));
+         Xnew = DiagUp(u,y) ;
+        if norm(Xnew-x0,1)<e
             return
         end
-        x0=Xnew
+        fprintf('norma : %f',norm(Xnew-x0,1))
+        x0=Xnew;
     end
 end
 
