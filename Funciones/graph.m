@@ -1,3 +1,4 @@
+% en el script se debe ir modificando m para que genere los graficos deseados (n=8,15,20,50)
 m=50;
 n=m;
 
