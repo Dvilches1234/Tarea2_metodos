@@ -51,7 +51,11 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
 
 \chapter{Resolución de sistema de ecuaciones lineales} % rellenar con lo que corresponda
  \section{Programación}
- 
+ 	Sea $A \in \mathbb{R}^{n \times n}$ una matriz invertible y $b \in \mathbb{R}^{n} $. Se considera el siguiente problema:
+ 	\begin{equation}
+ 		\textrm{Encontrar un } x \in \mathbb{R}^{n}\textrm{ tal que }  Ax = b
+	\end{equation} 	 
+	Para solucionarlo, se han programados todos los esquemas directos vistos en clase que pueden ayudar con este objetivo. También se hhan programado las factorizaciones LU,LU con pivoteo parcial y Cholesky de la matriz a. Finalmente, los métodos iterativos: Richardson, Jacobi, Guass-Seidel y SOR. Con un criterio de parada $\frac{\norm{x^{k+1}-x^k}}{\norm{x^k}} \leq Tol_{rel}$
  \section{Aplicación de los esquemas programados}
  \begin{enumerate}
  %%%%%%%%%%%%%%%
@@ -65,7 +69,7 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
  				\includegraphics[width=9cm]{grafo1-a}
  				\caption{Gráfico del número de condición para una matriz de Hilbert de tamaño n}
  			\end{figure}
- 			Se puede observar en figura 2.1 que entre más grande es el tamaño de la matriz de Hilbert, más grande es su número de condición. Este, al estar significativamente alejado del 1, implica que la matriz está mal condicionada.  %explica que significa que esté mal condicionada
+ 			Se puede observar en figura 2.1 que entre más grande es el tamaño de la matriz de Hilbert, más grande es su número de condición. Este, al estar significativamente alejado del 1, implica que la matriz está mal condicionada. Esto siginifca, que al ocupar esta matriz como matriz de coeficiente, los resultados obtenidos, no serán tan exactos.  %explica que significa que esté mal condicionada
  			\item 
  				\begin{itemize} 				
  				\item Para n=6:
@@ -112,59 +116,6 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
  		
  	Para resolver este problema se ocuparon los siguientes archivos: SolLU.m, FactorizacionLU.m, DiagUp.m y DiagDown.m	
  	
-<<<<<<< HEAD
-=======
-=======
- 	 %%%%%%%%%%%%%%%
- %pregunta 6
- %%%%%%%%%%%%%%%%	
-	\item
- 		\begin{enumerate}
-			\item 
-			\item 	
-			\begin{itemize}
-				\item Cuando se ocupa el método de Richardson, este no converge para ninguno de los tres casos, ya que los valores del radio espectral de la matriz definida por $I-A$ son mayores a 1. Teniendo valores de 2.9854, 2.9962, 2.9973 para $n=25, n=50$ y $n=60$ respectivamente.
-				
-				\item Al ocupar el método de Jacobi, se obtienen los siguientes valores para:
-				\begin{itemize}
-					\item n=25: 
-					
-					$x_{a} = \left(\begin{array}{c} 0.03939\\ 0.07875\\ 0.1181\\ 0.1574\\ 0.1967\\ 0.2358\\ 0.275\\ 0.314\\ 0.353\\ 0.3917\\ 0.4305\\ 0.4691\\ 0.5077\\ 0.546\\ 0.5844\\ 0.6225\\ 0.6606\\ 0.6986\\ 0.7365\\ 0.7743\\ 0.8121\\ 0.8497\\ 0.8873\\ 0.9249\\ 0.9625 \end{array}\right) $
-					
-					
-					\item n=50:
-					
-					$x_{a} = \left(\begin{array}{c} 0.0215\\ 0.04301\\ 0.06448\\ 0.08595\\ 0.1074\\ 0.1288\\ 0.1501\\ 0.1715\\ 0.1927\\ 0.2139\\ 0.235\\ 0.2561\\ 0.277\\ 0.2979\\ 0.3187\\ 0.3394\\ 0.36\\ 0.3805\\ 0.4009\\ 0.4212\\ 0.4414\\ 0.4615\\ 0.4814\\ 0.5013\\ 0.521\\ 0.5406\\ 0.5601\\ 0.5795\\ 0.5987\\ 0.6179\\ 0.6369\\ 0.6558\\ 0.6746\\ 0.6934\\ 0.7119\\ 0.7305\\ 0.7489\\ 0.7672\\ 0.7854\\ 0.8036\\ 0.8217\\ 0.8398\\ 0.8577\\ 0.8756\\ 0.8935\\ 0.9113\\ 0.9291\\ 0.9468\\ 0.9646\\ 0.9823 \end{array}\right)$
-					
-					\item n=60:
-					
-					$x_{a} = \left(\begin{array}{c} 0.0187\\ 0.03739\\ 0.05608\\ 0.07474\\ 0.09339\\ 0.112\\ 0.1306\\ 0.1491\\ 0.1676\\ 0.186\\ 0.2044\\ 0.2227\\ 0.2409\\ 0.2591\\ 0.2772\\ 0.2952\\ 0.3131\\ 0.3309\\ 0.3487\\ 0.3663\\ 0.3838\\ 0.4012\\ 0.4186\\ 0.4357\\ 0.4529\\ 0.4698\\ 0.4867\\ 0.5034\\ 0.5201\\ 0.5366\\ 0.553\\ 0.5692\\ 0.5854\\ 0.6014\\ 0.6174\\ 0.6332\\ 0.6489\\ 0.6644\\ 0.6799\\ 0.6953\\ 0.7106\\ 0.7257\\ 0.7408\\ 0.7557\\ 0.7706\\ 0.7853\\ 0.8001\\ 0.8147\\ 0.8293\\ 0.8437\\ 0.8581\\ 0.8725\\ 0.8868\\ 0.901\\ 0.9153\\ 0.9294\\ 0.9436\\ 0.9577\\ 0.9718\\ 0.9859 \end{array}\right)$
-				\end{itemize}
-			\end{itemize}
-		\end{enumerate}
-
- 	
- 	\item  Considere la siguiente matriz que aparece en la discretización de la ecuación diferencial del calor:
-
-    \[
-    $A = $
- 	\left(
- 	\begin{array}{cccccccccccccccccccccc}
- 	
- 	  -4 && 1  && 0   && 1   && 0   && \dots && 0   && 0   && 0 \\
- 	   1 && -4 && 1   && 0   && 1   && \ddots && 0   && 0   && 0 \\ 	   
- 	   0 && 1  && -4  && 1   && 0   && \ddots && 0   && 0   && 0 \\ 	   
- 	   1 && 0  && 1   && -4  && 1   && \ddots && \ddots && 0   && 0 \\ 	   
- 	   \ddots && \ddots &&\ddots  && \ddots && \ddots && \ddots && \ddots && \ddots && \ddots \\ 	   
- 	   0 && 0  && \ddots && \ddots && 1   && -4  && 1   && 0   && 1 \\ 	   
- 	   0 && 0  && 0   && \ddots && 0   && 1   && -4  && 1   && 0 \\ 	   
- 	   0 && 0  && 0   && \ddots && 1   && 0   && 1   && -4  && 1 \\ 	   
- 	   0 && 0  && 0   && \ddots && 0   && 1   && 0   && 1   && -4 \\
- 	   
- 	\end{array}
- 	\right) 
- 	\]
->>>>>>> 200ba829f7c021df2585c22d9b5c371546eae096
  	
  	\item 
  	 \begin{enumerate}
@@ -183,13 +134,27 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
             \end{figure}
        \end{enumerate}     
             Gracias a el resultado obtenido se puede apreciar claramente un aumento casi cuadrático del mal comportamiento de la matriz a mientras incrementa su orden matricial.Esto quiere decir que a medida que aumenta el tamaño de la matriz el determinante tiende a cero rapidamente.
-            
+       %%%%%%%%%%%%%%%
+ %pregunta 5
+ %%%%%%%%%%%%%%%%	
+ 	\item 
+ 	\begin{enumerate}
+ 			\item \begin{itemize}
+ 				\item Al ocupar el método de Richardson, en ambos casos, la matriz definida por $I-M^5$ tiene un radio espectral mayor a 1. Siendo 1.0084 cuando $n=20$ y 1.0091 para $n=40$
+ 				\item Lo mismo sucede con el método de Jacobi. Cuando $n = 20$, el radio espectral de la matriz definida por $I-Q^{-1}M^5$ tiene un valor de 3.8417, mientras que vale 3.8517 cuando  $n=40$.
+ 				\item Al ocupar el método de Gauss-Seidel, se encuentre el mismo inconveniente. Con valores del radio espectral 1.0862 y 1.0945, respectivamente.
+ 				\item Por último, cuando se uitliza el método de Relajación, nuevamente, se encuentra el mismo problema. Esta vez, los valores del radio espectral cuando $n=20$ son 1.0222, 1.0338 y 1.0382, para $w=0.7, 1.3,1.6$ respectivamente. Pr otra parte, cuando $n=40$, este vale 1.0242, 1.0369, 1.0432 para los respectivos valores de $w$
+ 			\end{itemize}
+ 			\item Para todos los métodos se ocupó una tolerancia de 0.0001 y como criterio de parada se utilizó $\frac{\norm{x^{k+1}-x^{k}}_{2}}{\norm{x^{k+1}}_{2}}\leq 0.0001$. 
+ 			Como ninguno de los métodos convergió, no se puede calcular la cantidad de iteraciones ni el tiempo utilizado.
+ 			
+		\end{enumerate} 	  
  %%%%%%%%%%%%%%%
  %pregunta 6
  %%%%%%%%%%%%%%%%	
 	\item
  		\begin{enumerate}
-			\item 
+			\item Para comprobar que la matriz tiene solución única
 			\item 	
 			\begin{itemize}
 				\item Cuando se ocupa el método de Richardson, este no converge para ninguno de los tres casos, ya que los valores del radio espectral de la matriz definida por $I-A$ son mayores a 1. Teniendo valores de 2.9854, 2.9962, 2.9973 para $n=25, n=50$ y $n=60$ respectivamente.

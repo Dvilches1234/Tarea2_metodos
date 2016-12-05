@@ -12,7 +12,7 @@ function gs = GaussSeidel( x0, a, b,tol)
    xk=m*x0+c;
    cont=0;
    %nor= norm(m)
-    respec=max(abs(eig(m)));
+    respec=max(abs(eig(m)))
    if respec<1
   % if norm(m)<1   
     while norm(xk-x0)/norm(xk)>=tol
@@ -20,7 +20,8 @@ function gs = GaussSeidel( x0, a, b,tol)
         x0=xk;
         xk=m*x0+c;
      end
-     gs=xk;
-     cont
+     
    end
+   gs=xk;
+     cont
 end

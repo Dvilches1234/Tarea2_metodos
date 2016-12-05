@@ -10,7 +10,7 @@ function ric =Richardson( x0, a, b,tol)
    xk=m*x0+b;
    cont=0;
    %nor= norm(m,1)
-    respec=max(abs(eig(m)));
+    respec=max(abs(eig(m)))
    if respec<1
    %if norm(m,1)<1   
     while norm(xk-x0)/norm(xk)>=tol
