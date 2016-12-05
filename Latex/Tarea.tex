@@ -154,7 +154,23 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
  %%%%%%%%%%%%%%%%	
 	\item
  		\begin{enumerate}
-			\item Para comprobar que la matriz tiene solución única
+			\item Como la matriz de coeficientes no tiene filas nulas ni filas que sean multiplos de otras, se puede afirmar que el determinante siempre es distinto de 0. Esto nos demuestra que esta matriz tiene una solución única. Para demostrar que el vector $x_{e} = \frac{1}{n+1}(1,2,...,n)$ es solución del sistema, ocuparemos una matriz de $6 \times 6$ a modo de ejemplo.
+			\begin{equation}
+				\textrm{El sistema definido por} Ax = b
+				\textrm{ Donde } A = \left(\begin{array}{cccccc} 2.0 & -1.0 & 0 & 0 & 0 & 0\\ -1.0 & 2.0 & -1.0 & 0 & 0 & 0\\ 0 & -1.0 & 2.0 & -1.0 & 0 & 0\\ 0 & 0 & -1.0 & 2.0 & -1.0 & 0\\ 0 & 0 & 0 & -1.0 & 2.0 & -1.0\\ 0 & 0 & 0 & 0 & -1.0 & 2.0 \end{array}\right)
+				\textrm{ y } x_{e} = \left(\begin{array}{c} 0.1667\\ 0.3333\\ 0.5\\ 0.6667\\ 0.8333\\ 1.0 \end{array}\right)
+			\end{equation}			 
+			
+			Luego 
+			\begin{equation}
+				b = Ax_{e}
+			\end{equation}
+			
+			Entonces el vector b tiene un valor de $\left(\begin{array}{c} 0\\ 0\\ 1.11\cdot 10^{-16}\\ 0\\ -1.11\cdot 10^{-16}\\ 1.167 \end{array}\right)$
+			Luego si calculamos el error relativo entre este vector $b$ y el vector $b$ real, definido por $\frac{\norm{b_{e}-b}}{\norm{b_{e}}}$ donde $b_{e}$ sería este último, obtenemos un valor de 0.1667. 
+			
+			Por lo tanto, se concluye que el vector $x_{e} = \frac{1}{n+1}$
+			
 			\item 	
 			\begin{itemize}
 				\item Cuando se ocupa el método de Richardson, este no converge para ninguno de los tres casos, ya que los valores del radio espectral de la matriz definida por $I-A$ son mayores a 1. Teniendo valores de 2.9854, 2.9962, 2.9973 para $n=25, n=50$ y $n=60$ respectivamente.
