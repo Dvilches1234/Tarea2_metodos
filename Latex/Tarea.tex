@@ -119,7 +119,7 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
  	
  	\item 
  	 \begin{enumerate}
- 	    \item Usando la Factorización de Cholesky, encuentre la solución del sistema $Ax = b$, con $b \in R^{n}$  un vector de unos, cuando n = 10, 20, 30.
+ 	    \item Usando la Factorización de Cholesky, encuentre la solución del sistema $A^{T}Ax = b$, con $b \in R^{n}$  un vector de unos, cuando n = 10, 20, 30.
  	        \begin{align*}
  	             1) \left(\begin{array}{c} 0.7347\\ 0.8712\\ 0.9332\\ 1.0677\\ 1.0839\\ 1.0830\\ 1.0269\\ 0.8574\\ 0.8229\\ 0.6498 \end{array}\right) 	 &&   2) \left(\begin{array}{c} 0.8160\\ 0.9860\\ 1.0786\\ 1.2779\\ 1.3690\\ 1.4156\\ 1.4739\\ 1.5073\\ 1.5207\\ 1.5299\\ 1.5233\\ 1.5040\\ 1.4823\\ 1.4311\\ 1.3565\\ 1.3074\\ 1.1858\\ 0.9651\\ 0.9069\\ 0.7025 \end{array}\right)   &&  3) \left(\begin{array}{c} 0.8227\\ 0.9954\\ 1.0912\\ 1.2954\\ 1.3919\\ 1.4450\\ 1.5117\\ 1.5567\\ 1.5841\\ 1.6098\\ 1.6289\\ 1.6408\\ 1.6496\\ 1.6550\\ 1.6563\\ 1.6548\\ 1.6503\\ 1.6411\\ 1.6285\\ 1.6125\\ 1.5863\\ 1.5536\\ 1.5207\\ 1.4604\\ 1.3791\\ 1.3247\\ 1.1986\\ 0.9740\\ 0.9136\\ 0.7067 \end{array}\right) 
  	        \end{align*}
@@ -133,7 +133,9 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
                 \caption{Gráfico n vs K(A)} \label{fig:Grafico2b}
             \end{figure}
        \end{enumerate}     
-            Gracias a el resultado obtenido se puede apreciar claramente un aumento casi cuadrático del mal comportamiento de la matriz a mientras incrementa su orden matricial.Esto quiere decir que a medida que aumenta el tamaño de la matriz el determinante tiende a cero rapidamente.
+            Gracias a el resultado obtenido se puede apreciar claramente un aumento casi cuadrático del mal comportamiento de la matriz a mientras incrementa su orden matricial.Esto quiere decir que a medida que aumenta el tamaño de la matriz el determinante tiende a cero rapidamente.\\
+            
+             	Para resolver este problema se ocuparon los siguientes archivos: SolLU.m, FactorizacionLU.m, DiagUp.m, DiagDown.m,Diag.m,Matrix2.m,Sol\_problema2.m,NumCondicion.m y NormInf.m	
        %%%%%%%%%%%%%%%
  %pregunta 5
  %%%%%%%%%%%%%%%%	
