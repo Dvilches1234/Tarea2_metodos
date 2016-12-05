@@ -6,6 +6,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{subfig}
 \usepackage{array}
 \graphicspath{ {Imagenes/} }
 \usepackage{listings}
@@ -87,6 +88,7 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
  				$x_{a} = \left(\begin{array}{c} 1.0\\ 1.0\\ 0.9992\\ 1.008\\ 0.9865\\ 0.6493\\ 4.094\\ -11.3\\ 28.09\\ -30.78\\ 14.27\\ 5.74\\ 8.759\\ -22.04\\ 9.068\\ 0.1336\\ 29.05\\ -42.82\\ 26.48\\ -4.379 \end{array}\right)$
  				\\
  				\\
+ 				\newpage
  				\item Para n=30:
  				
  				$x_{a} = \left(\begin{array}{c} 1.0\\ 1.0\\ 1.0\\ 0.9929\\ 1.055\\ 0.7579\\ 1.695\\ -0.8953\\ 7.118\\ -14.6\\ 22.59\\ -5.381\\ -19.13\\ 19.89\\ 11.04\\ -26.6\\ 29.17\\ -27.26\\ 32.59\\ -26.64\\ 8.374\\ -8.23\\ 29.33\\ 9.701\\ -39.71\\ -9.034\\ 39.38\\ 2.024\\ -19.37\\ 8.151 \end{array}\right)$
@@ -115,8 +117,7 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
  		\end{enumerate}
  		
  	Para resolver este problema se ocuparon los siguientes archivos: SolLU.m, FactorizacionLU.m, DiagUp.m y DiagDown.m	
- 	
- 	
+ 	\newpage
  	\item 
  	 \begin{enumerate}
  	    \item Usando la Factorización de Cholesky, encuentre la solución del sistema $A^{T}Ax = b$, con $b \in R^{n}$  un vector de unos, cuando n = 10, 20, 30.
@@ -129,13 +130,178 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
  	        La gráfica obtenida fue la siguiente :
             \begin{figure}[H]
                 \centering
-                \includegraphics[width=9cm]{Grafico2b}
+                \includegraphics[width=8cm]{Grafico2b}
                 \caption{Gráfico n vs K(A)} \label{fig:Grafico2b}
             \end{figure}
        \end{enumerate}     
             Gracias a el resultado obtenido se puede apreciar claramente un aumento casi cuadrático del mal comportamiento de la matriz a mientras incrementa su orden matricial.Esto quiere decir que a medida que aumenta el tamaño de la matriz el determinante tiende a cero rapidamente.\\
             
              	Para resolver este problema se ocuparon los siguientes archivos: SolLU.m, FactorizacionLU.m, DiagUp.m, DiagDown.m,Diag.m,Matrix2.m,Sol\_problema2.m,NumCondicion.m y NormInf.m	
+        \item
+        \item
+                \begin{enumerate}
+            \item Suponiendo que m = n, encuentre la solución del sistema anterior vía eliminación Gaussiana, cuando n = 8,15,20,50.
+            \begin{table}[H]
+        \centering
+            \begin{tabular} {|c|}
+            \hline
+            Valores de la solución para n=8 \\
+            \hline
+            x_{1}=  0,42005\\
+            \hline
+            x_{2}=  -1,86380\\
+            \hline
+            x_{3}=  0,06716\\
+            \hline
+            x_{4}=  8,71470\\
+            \hline
+            x_{5}=  -2,26160\\
+            \hline
+            x_{6}=  -13,872\\
+            \hline
+            x_{7}=  1,82990\\
+            \hline
+            x_{8}=  7,0035\\
+            \hline
+            \end{tabular}
+        \end{table}
+        
+        \begin{table}[H]
+        \centering
+            \begin{tabular} { |c|}
+            
+            \hline
+            Valores de la solución para n=15 \\
+            \hline
+            x_{1}= 0,66216\\
+            \hline
+            x_{2}=  -3,2558\\
+            \hline
+            x_{3}=  2,5351\\
+            \hline
+            x_{4}=  51,084\\
+            \hline
+            x_{5}=  -142,67\\
+            \hline
+            x_{6}=  -349,97\\
+            \hline
+            x_{7}=  1267,5\\
+            \hline
+            x_{8}=  1219,3\\
+            \hline
+            x_{9}=  -4939\\
+            \hline
+            x_{10}= -2212,5\\
+            \hline
+            x_{11}= 9501,1\\
+            \hline
+            x_{12}= 1972,1\\
+            \hline
+            x_{13}= -8758,3\\
+            \hline
+            x_{14}= -676,7\\
+            \hline
+            x_{15}= 3068,2\\
+            \hline
+            \end{tabular}
+        \end{table}
+        
+        \begin{table}[H]
+        \centering
+            \begin{tabular} {|c|}
+            
+            \hline
+            Valores de la solución para n=20 \\
+            \hline
+            x_{1}= 0,78893\\
+            \hline
+            x_{2}=  -3,242\\
+            \hline
+            x_{3}=  -4,634\\
+            \hline
+            x_{4}=  78,394\\
+            \hline
+            x_{5}=  -62,354\\
+            \hline
+            x_{6}=  -999,57\\
+            \hline
+            x_{7}=  1236,5\\
+            \hline
+            x_{8}=  7758,6\\
+            \hline
+            x_{9}=  -8888,8\\
+            \hline
+            x_{10}= -37882\\
+            \hline
+            x_{11}= 34023\\
+            \hline
+            x_{12}= 1,17E+05\\
+            \hline
+            x_{13}= -74840\\
+            \hline
+            x_{14}= -2,25E+05\\
+            \hline
+            x_{15}= 94271\\
+            \hline
+            x_{16}= 2,60E+05\\
+            \hline
+            x_{17}= -62902\\
+            \hline
+            x_{18}= -1,64E+05\\
+            \hline
+            x_{19}= 17167\\
+            \hline
+            x_{20}= 42838\\
+            \hline
+            \end{tabular}
+        \end{table}
+
+\centering  
+\begin{tabular}{ |l|l| }
+  \hline
+  \multicolumn{2}{|c|}{Valores de la solución para n=50 } \\
+  \hline
+   x_{1}= 0,95399 & x_{26}= 1,16E+09\\
+x_{2}= -2,0286 & x_{27}= 1,10E+09\\
+x_{3}= -20,884 & x_{28}= -4,92E+08\\
+x_{4}= 80,9 & x_{29}= -1,05E+09\\
+x_{5}= 429,77 & x_{30}= 2,60E+08\\
+x_{6}= -1853,9 & x_{31}= 5,09E+08\\
+x_{7}= -7667,8 & x_{32}= -4,34E+08\\
+x_{8}= 27248 & x_{33}= -2,05E+08\\
+x_{9}= 1,04E+05 & x_{34}= 3,96E+08\\
+x_{10}= -2,85E+05 & x_{35}= 2,03E+08\\
+x_{11}= -1,09E+06 & x_{36}= -1,38E+08\\
+x_{12}= 2,08E+06 & x_{37}= -5,73E+07\\
+x_{13}= 8,92E+06 & x_{38}= 1,22E+08\\
+x_{14}= -8,88E+06 & x_{39}= -1,72E+08\\
+x_{15}= -5,28E+07 & x_{40}= -1,89E+08\\
+x_{16}= 1,16E+07 & x_{41}= 1,51E+08\\
+x_{17}= 2,09E+08 & x_{42}= 8,63E+06\\
+x_{18}= 7,42E+07 & x_{43}= 5,75E+06\\
+x_{19}= -5,27E+08 & x_{44}= 1,35E+08\\
+x_{20}= -4,32E+08 & x_{45}= -8,43E+07\\
+x_{21}= 7,91E+08 & x_{46}= -7,38E+07\\
+x_{22}= 1,07E+09 & x_{47}= 7,20E+07\\
+x_{23}= -5,20E+08 & x_{48}= 1,16E+07\\
+x_{24}= -1,48E+09 & x_{49}= -2,34E+07\\
+x_{25}= -3,58E+08 & $x_{50} = -2,30E+06$\\
+\hline
+\end{tabular}
+\newpage
+\item Grafique la función $f$ versus el polinomio $g$ para $n = 8$, $15$, $20$, $50$. Comente sus resultados.
+    \begin{figure}[H]
+    \centering
+    \subfloat[$n=8$]{{\includegraphics[width=9cm]{datos-8}}}
+    \subfloat[$n=15$]{{\includegraphics[width=9cm]{datos-15} }}
+    \hfill
+    \subfloat[$n=20$]{{\includegraphics[width=9cm]{datos-20} }}
+    \subfloat[$n=50$]{{\includegraphics[width=9cm]{datos-50} }}
+    \end{figure}
+     
+Los gráficos debiesen ser iguales, pero la gráfica del polinomio $g$ se dispara a valores muy altos cuando $t>0,5$
+
+     \end{enumerate}
        %%%%%%%%%%%%%%%
  %pregunta 5
  %%%%%%%%%%%%%%%%	
@@ -147,6 +313,7 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
  				\item Al ocupar el método de Gauss-Seidel, se encuentre el mismo inconveniente. Con valores del radio espectral 1.0862 y 1.0945, respectivamente.
  				\item Por último, cuando se uitliza el método de Relajación, nuevamente, se encuentra el mismo problema. Esta vez, los valores del radio espectral cuando $n=20$ son 1.0222, 1.0338 y 1.0382, para $w=0.7, 1.3,1.6$ respectivamente. Pr otra parte, cuando $n=40$, este vale 1.0242, 1.0369, 1.0432 para los respectivos valores de $w$
  			\end{itemize}
+ 			\newpage
  			\item Para todos los métodos se ocupó una tolerancia de 0.0001 y como criterio de parada se utilizó $\frac{\norm{x^{k+1}-x^{k}}_{2}}{\norm{x^{k+1}}_{2}}\leq 0.0001$. 
  			Como ninguno de los métodos convergió, no se puede calcular la cantidad de iteraciones ni el tiempo utilizado.
  			
@@ -301,7 +468,7 @@ En lo que se refiere a aproximación de funciones e integración de funciones, l
 			\end{itemize}
  	        Se puede observar que la cantidad de iteraciones y el error de los métodos de Gauss-Seidel y Jacobi tienen los mismos valores, aunque este último toma más tiempo.
  	        \\
-			Por otra, parte al analizar los resultados del método de Relajación para los diferentes valores de $w$, se puede percatar de que a entre más grande es el valor de $w$, más rápido converge, además de que disminuye el error. 
+			Por otra, parte al analizar los resultados del método de Relajación para los diferentes valores de $w$, se puede percatar de que a entre más grande es el valor de $w$, más rápido converge, además de que disminuye el error. \newpage
  	        \item Los resultados encontrados al utilizar la forma general del método de Gauss-Seidel, son:
  	        
  	        n = 25: 
@@ -442,6 +609,7 @@ Basado en esta figura se han obtenido los siguientes puntos:
     \includegraphics[width=9cm]{interp_spline_csaps}
     \caption{interpolación Spline cubica suavizante.} \label{fig:interp_spline_csaps}
 \end{figure}
+\newpage
 La función utilizada es:
  
 \begin{itemize}
@@ -516,9 +684,7 @@ g=9.8[m/s^2]
  \\
  \\
  f=1.0854e+10
- \\
- \\
- \\
+\newpage
  El grafico obtenido en el proceso de obtención de la fuerza obtenida resultó ser la siguiente imagen.
  \begin{figure}[H]
     \centering
@@ -537,7 +703,7 @@ La función utilizada es:
 \item trapecio
 \end{itemize}
 
- \vspace{2.5cm}
+ \vspace{0.8cm}
  
  \item Usando interpolación de Lagrange, dibuje la curva del lado derecho de la  figura.
  
@@ -551,6 +717,7 @@ La función utilizada es:
 \item lagrang
 \item lagrange
 \end{itemize}
+\newpage
  \item Usando interpolación por spline, dibuje la curva del lado izquierdo de la  figura.
  \\
  \begin{figure}[H]
