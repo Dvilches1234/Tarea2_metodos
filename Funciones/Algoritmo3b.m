@@ -1,4 +1,10 @@
-
+% Parametros de entrada : 
+% x0 : vector inicial
+% n : Iteraciones máximas
+% e : Error 
+% lambda : Valor de lambda en la ecuación
+%Parametros de salida : 
+% x : Solucion de la ecuación
 function [ Xnew ] = Algoritmo3b(x0,n,e,lambda) 
     a = Matrix2(zeros(20));
     for i=1 : 20 
